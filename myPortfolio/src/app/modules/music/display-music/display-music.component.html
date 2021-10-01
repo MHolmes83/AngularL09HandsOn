@@ -1,0 +1,11 @@
+<div class="music">
+    <h2>
+        Favorite Music: 
+    </h2>
+    <ul>
+        <li *ngFor='let music of music'>
+            <p>{{music.id + 1 }} . {{music.title}}: {{music.artist}}</p>
+            <a [href]='music.url'></a>
+        </li>
+    </ul>
+</div>

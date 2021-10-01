@@ -1,0 +1,8 @@
+<div>
+    <h3>Hobbies: </h3>
+    <ul>
+        <li *ngFor="let hobby of hobbies">
+            <p>{{hobby.id + 1}}. {{hobby.name}}: {{hobby.category}}</p>
+        </li>
+    </ul>
+</div>

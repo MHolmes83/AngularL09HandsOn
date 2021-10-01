@@ -1,0 +1,37 @@
+{
+    "movies": [
+        {
+            "id": 0,
+            "title": "The Princess Bride",
+            "director": "Rob Reiner",
+            "image_url":
+                "https://upload.wikimedia.org/wikipedia/en/d/db/Princess_bride.jpg"
+        },
+        {
+            "id": 1,
+            "title": "Deadpool",
+            "director": "Tim Miller",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/2/23/Deadpool_%282016_poster%29.png"
+        },
+        {
+            "id": 2,
+            "title": "Labyrinth",
+            "director": "Jim Henson",
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/6/6b/Labyrinth_ver2.jpg"
+        }
+    ],
+    "music": [
+        {
+            "id": 0,
+            "title": "Sound of Silence",
+            "artist": "Disturbed",
+            "url": "https://www.youtube.com/watch?v=u9Dg-g7t2l4&list=RDu9Dg-g7t2l4&start_radio=1"
+        },
+        {
+            "id": 1,
+            "title": "American Idiot",
+            "artist": "Green Day",
+            "url": "https://www.youtube.com/watch?v=Ee_uujKuJMI"
+        }
+    ]
+}

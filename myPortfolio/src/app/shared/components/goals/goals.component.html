@@ -1,0 +1,8 @@
+<div>
+    <h3>Goals: </h3>
+    <ul>
+        <li *ngFor="let goal of goals">
+            <p>{{goal.id + 1}}. {{goal.name}}: {{goal.type}} - {{goal.importance}}</p>
+        </li>
+    </ul>
+</div>

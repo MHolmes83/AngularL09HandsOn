@@ -1,0 +1,6 @@
+<div class="movies">
+    <h2>
+       Favorite Movies: 
+    </h2>
+    <app-display-movie *ngFor='let movie of movies' [movie]='movie' (movieDeleted)="onMovieDeleted($event)" (movieViewed)='onMovieViewed($event)'></app-display-movie>
+</div>

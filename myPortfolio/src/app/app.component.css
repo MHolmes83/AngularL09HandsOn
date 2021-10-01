@@ -1,0 +1,79 @@
+#header,
+#bio {
+    background-color: lightseagreen;
+}
+
+#header {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Old English Text MT", fantasy;
+    text-shadow: 2px 5px 2px rgb(166, 166, 166);
+}
+
+#header img{
+    max-width: 300px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 2px rgb(166, 166, 166);
+}
+
+h3 {
+    background-color: crimson;
+    font-family: 'Old English Text MT', fantasy;
+    padding: 4px;
+    border: dotted;
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: center;
+}
+
+h5 {
+    font-family: "Old English Text MT", fantasy;
+    color: darkred;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 5px;
+}
+
+p {
+    font-family: "Old English Text MT", fantasy;
+    color: darkred;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 6em;
+    padding-left: 6em;
+}
+
+app-skills {
+    font-family: "Old English Text MT", fantasy;
+    color: darkred;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 6em;
+    padding-left: 6em;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+app-contacts {
+    font-family: "Old English Text MT", fantasy;
+    color: darkred;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 6em;
+    padding-left: 6em;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+.btn {
+    justify-content: space-between;
+    font-family: "Old English Text MT", fantasy;
+    border: solid black;
+    border-radius: 5px;
+    background-color: blue;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
